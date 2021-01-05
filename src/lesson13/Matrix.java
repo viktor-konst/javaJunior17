@@ -186,6 +186,10 @@ public class Matrix implements IMatrix {
         return true;
     }
 
+
+
+
+
     @Override
     public boolean isIdentityMatrix() {
         for (int i = 0; i < this.getRows(); i++) {
